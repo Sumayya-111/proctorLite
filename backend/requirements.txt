@@ -5,3 +5,4 @@ pydantic
 email-validator
 resend
 python-dotenv
+psycopg[binary]
