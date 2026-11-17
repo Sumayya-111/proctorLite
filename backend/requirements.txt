@@ -1,7 +1,7 @@
-   fastapi
-   sqlalchemy
-   psycopg2-binary
-   pydantic
-   email-validator
-   resend
-   python-dotenv
+fastapi
+sqlalchemy
+psycopg2-binary
+pydantic
+email-validator
+resend
+python-dotenv
