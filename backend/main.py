@@ -35,6 +35,10 @@ def get_db():
 
 resend.api_key = os.getenv("RESEND_API_KEY")
 
+@app.get("/")
+def health():
+    return {"status": "ok"}
+
 def send_violation_email(teacher_email: str, student_name: str, quiz_title: str, violation_type: str):
     resend.Emails.send({
         "from": "ProctorLite <onboarding@resend.dev>",
